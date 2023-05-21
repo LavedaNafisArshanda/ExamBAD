@@ -4,7 +4,7 @@ public class Database {
   private static final String DB_URL = "jdbc:mysql://localhost:3306/library";
 
   private static final String USER = "root";
-  private static final String PASSWORD = "1sampai8";
+  private static final String PASSWORD = "pass123";
 
   public static int insert(String tableName, String[] columns, Object[] values) {
     String sql = "INSERT INTO " + tableName + " (";
